@@ -22,10 +22,6 @@ header .navbar {
   position: relative;
 }
 
-header .navbar .header-logo {
-  margin-top: 0px !important;
-}
-
 header .navbar .nav-links {
   display: -webkit-box;
   display: -ms-flexbox;
