@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   font-family: "Nunito", sans-serif;
   background: #FFF;
@@ -179,7 +184,7 @@ header .navbar .nav-links .nav-links-content li a .fas {
 }
 
 .banner-wrapper {
-  width: 80%;
+  width: 1248px;
   margin: 30px auto 20px;
   padding: 5px;
 }
@@ -316,7 +321,7 @@ header .navbar .nav-links .nav-links-content li a .fas {
 }
 
 .about-wrapper .about-content {
-  width: 80%;
+  width: 1248px;
   margin: 102.78px auto 20px;
 }
 
@@ -326,6 +331,7 @@ header .navbar .nav-links .nav-links-content li a .fas {
   color: #11092C;
   font-weight: 600;
   text-align: right;
+  padding-right: 80px;
 }
 
 .feature-wrapper {
@@ -333,7 +339,7 @@ header .navbar .nav-links .nav-links-content li a .fas {
 }
 
 .feature-wrapper .feature-content {
-  width: 80%;
+  width: 1248px;
   margin: auto;
   padding-top: 47px;
   padding-bottom: 100px;
@@ -397,5 +403,140 @@ header .navbar .nav-links .nav-links-content li a .fas {
   line-height: 200%;
   color: rgba(51, 51, 51, 0.8);
   padding-right: 45px;
+}
+
+.pricing-wrapper {
+  background: #FAFAFA;
+  padding-top: 50px;
+  padding-bottom: 149px;
+}
+
+.pricing-content-wrapper {
+  width: 1248px;
+  margin: auto;
+}
+
+.pricing-content-wrapper h3 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 130%;
+  color: #11092C;
+  margin-bottom: 18px;
+}
+
+.pricing-content-wrapper hr {
+  width: 43px;
+  border: 4px solid #3B1F9E;
+  margin-top: 0px;
+}
+
+.pricing-content-wrapper .price-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (386px)[3];
+      grid-template-columns: repeat(3, 386px);
+  grid-auto-rows: minmax(638px, 638px);
+  grid-column-gap: 19px;
+  margin-top: 78.63px;
+}
+
+.pricing-content-wrapper .price-container .pricing-contents {
+  background: #FFFFFF;
+  border: 1px solid rgba(196, 196, 196, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.pricing-content-wrapper .price-container .pricing-contents .pricing-content-text {
+  position: relative;
+}
+
+.pricing-content-wrapper .price-container .pricing-contents .pricing-content-text .rectangle {
+  position: absolute;
+  height: 205.37px;
+  width: 386px;
+  border-radius: 0 0 240px 50%/60px;
+  z-index: 1;
+}
+
+.pricing-content-wrapper .price-container .pricing-contents .pricing-content-text .r1 {
+  background: #C4C4C4;
+}
+
+.pricing-content-wrapper .price-container .pricing-contents .pricing-content-text .r2 {
+  background: #FFF1F3;
+}
+
+.pricing-content-wrapper .price-container .pricing-contents .pricing-content-text .r3 {
+  background: #C4C4C4;
+}
+
+.pricing-content-wrapper .price-container .pricing-contents .pricing-content-text h3 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 130%;
+  padding-top: 221.37px;
+  margin-bottom: 5px;
+  color: #3F3D74;
+}
+
+.pricing-content-wrapper .price-container .pricing-contents .pricing-content-text hr {
+  width: 272px;
+  border: 1px solid rgba(196, 196, 196, 0.4);
+}
+
+.pricing-content-wrapper .price-container .pricing-contents .pricing-content-text .users {
+  margin-top: 28px;
+  text-align: center;
+}
+
+.pricing-content-wrapper .price-container .pricing-contents .pricing-content-text .users p i {
+  margin-right: 31px;
+  color: #3B1F9E;
+}
+
+.pricing-content-wrapper .price-container .pricing-contents .pricing-content-text .money {
+  margin-top: 43px;
+  padding: 0px;
+  color: rgba(59, 31, 158, 0.9);
+}
+
+.pricing-content-wrapper .price-container .pricing-contents .pricing-content-text .button-container {
+  text-align: center;
+}
+
+.pricing-content-wrapper .price-container .pricing-contents .pricing-content-text .button-container button {
+  width: 222px;
+  height: 40px;
+  margin: 30px auto 20px;
+  text-align: center;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+}
+
+.pricing-content-wrapper .price-container .pricing-contents .pricing-content-text .button-container button a {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.pricing-content-wrapper .price-container .pricing-contents .pricing-content-text .button-container .money-btn-1 {
+  background: #FFF;
+  border: 1px solid #3B1F9E;
+}
+
+.pricing-content-wrapper .price-container .pricing-contents .pricing-content-text .button-container .money-btn-1 a {
+  color: #3B1F9E;
+}
+
+.pricing-content-wrapper .price-container .pricing-contents .pricing-content-text .button-container .money-btn-2 {
+  background: #3B1F9E;
+  border: 1px solid #3B1F9E;
+}
+
+.pricing-content-wrapper .price-container .pricing-contents .pricing-content-text .button-container .money-btn-2 a {
+  color: #FFF;
 }
 /*# sourceMappingURL=main.css.map */
