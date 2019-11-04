@@ -155,7 +155,8 @@ header .navbar .nav-links .nav-links-content li a .fas {
   color: white;
 }
 
-.fa-bars {
+.fa-bars,
+.fa-times {
   display: none;
   position: absolute;
   font-size: 40px;
